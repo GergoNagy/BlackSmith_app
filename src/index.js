@@ -6,8 +6,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import promise from 'redux-promise';
 import reducers from './reducers';
 import registerServiceWorker from './registerServiceWorker';
-import App from './components/app'
-
+import MainPage from './components/main_page'
+import './style/style.css'
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
@@ -16,7 +16,7 @@ ReactDOM.render(
         <BrowserRouter>
             <div>
                 <Switch>
-                    <Route path='/' component={App} />
+                    <Route path='/' component={MainPage} />
                 </Switch>
             </div>
         </BrowserRouter>
@@ -24,4 +24,4 @@ ReactDOM.render(
     , document.querySelector('.container'));
 
 
-registerServiceWorker();
+// registerServiceWorker();

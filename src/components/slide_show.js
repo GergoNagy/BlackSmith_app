@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import BackgroundSlideshow from 'react-background-slideshow'
-import image1 from './pic/level.jpg'
-import image2 from './pic/bopen.jpg'
-import image3 from './pic/mh2.jpg'
+import image1 from '../images/level.jpg'
+import image2 from '../images/bopen.jpg'
+import image3 from '../images/mh2.jpg'
 
 export default class SlideShow extends Component {
     

@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import promise from 'redux-promise';
 import reducers from './reducers';
 import registerServiceWorker from './registerServiceWorker';
-import MainPage from './components/main_page'
+import WelcomePage from './components/welcome_page'
 import './style/style.css'
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
@@ -16,7 +16,7 @@ ReactDOM.render(
         <BrowserRouter>
             <div>
                 <Switch>
-                    <Route path='/' component={MainPage} />
+                    <Route path='/' component={WelcomePage} />
                 </Switch>
             </div>
         </BrowserRouter>

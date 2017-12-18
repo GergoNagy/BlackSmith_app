@@ -21,22 +21,5 @@ export default class NavBar extends Component{
                 <a href="javascript:void(0);" className="icon" onClick={this.myFunction}>&#9776;</a>
             </div>
         )
-        // return(
-        //     <nav className='navbar navbar-toggleable-md navbar-inverse'>
-        //         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        //             <ul className="navbar-nav mr-auto">
-        //                 <li className="nav-item">
-        //                     <Link className='nav-link' to='/'>Welcome</Link>
-        //                 </li>
-        //                 <li className="nav-item">
-        //                     <Link className="nav-link" to='/main'>Home</Link>
-        //                 </li>
-        //                 <li className='nav-item'>
-        //                     <Link className='nav-link' to='/about'>About</Link>
-        //                 </li>
-        //             </ul>
-        //         </div>
-        //     </nav>
-        // )
     }
 }
